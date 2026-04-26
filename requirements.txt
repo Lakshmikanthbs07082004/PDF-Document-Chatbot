@@ -1,0 +1,23 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# PDF Document Chatbot — Dependencies
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Core framework
+streamlit==1.45.1
+
+# PDF parsing
+PyPDF2==3.0.1
+
+# Google Gemini AI SDK (answer generation only)
+google-genai==1.14.0
+
+# Local embeddings (no API quota limits)
+sentence-transformers>=3.0.0
+
+# Environment variable management
+python-dotenv==1.1.0
+
+# Numerical computation for cosine similarity
+numpy==2.2.5
+
+# Testing framework
+pytest==8.3.5
